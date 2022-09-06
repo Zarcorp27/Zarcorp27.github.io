@@ -12,18 +12,21 @@ export class EducationComponent implements OnInit {
 
   ngOnInit(): void {
 
-    let education1 = {
+    let edu1 = {
                 rango: "06/2020-Cursando",
                 grado: "Licenciatura de Ingenieria en Software",
                 colegio: "Universidad Veracruzana",
 
     };
 
-    let education2 = {
+    let edu2 = {
                 rango: "06/2017-06/2020",
                 grado: "Educacion Media",
                 colegio: "Colegio de Bachilleres del Estado de Veracruz",
     };
+
+    this.education.push(edu1);
+    this.education.push(edu2);
 
   }
 
